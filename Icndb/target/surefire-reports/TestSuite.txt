@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 55.107 s <<< FAILURE! - in TestSuite
+testIncorrectCategories(com.icndb.categories.TestCategories)  Time elapsed: 0.312 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at com.icndb.categories.TestCategories.testIncorrectCategories(TestCategories.java:61)
+
+testExcludeCategoriesNegative(com.icndb.categories.TestExcludeCategories)  Time elapsed: 0.857 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+
+testExcludeCategoriesNegative(com.icndb.categories.TestExcludeCategories)  Time elapsed: 0.431 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+
+testExcludeCategoriesNegative(com.icndb.categories.TestExcludeCategories)  Time elapsed: 0.439 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+
+testExcludeCategoriesNegative(com.icndb.categories.TestExcludeCategories)  Time elapsed: 0.33 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+
+testLimitToCategoriesNegative(com.icndb.categories.TestLimitToCategories)  Time elapsed: 0.227 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+
+testLimitToCategoriesNegative(com.icndb.categories.TestLimitToCategories)  Time elapsed: 0.429 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+
+testLimitToCategoriesNegative(com.icndb.categories.TestLimitToCategories)  Time elapsed: 0.267 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+
+testLimitToCategoriesNegative(com.icndb.categories.TestLimitToCategories)  Time elapsed: 0.202 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+
+testIncorrectEndPointAfterJokes(com.icndb.jokes.TestJokes)  Time elapsed: 0.453 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at com.icndb.jokes.TestJokes.testIncorrectEndPointAfterJokes(TestJokes.java:123)
+
+testIncorrectEndPointJokes(com.icndb.jokes.TestJokes)  Time elapsed: 0.165 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at com.icndb.jokes.TestJokes.testIncorrectEndPointJokes(TestJokes.java:111)
+
+testJokesByIdNegative(com.icndb.jokes.TestJokes)  Time elapsed: 0.314 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.jokes.TestJokes.testJokesByIdNegative(TestJokes.java:100)
+
+testJokesByIdNegative(com.icndb.jokes.TestJokes)  Time elapsed: 0.195 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.jokes.TestJokes.testJokesByIdNegative(TestJokes.java:100)
+
+testCountOfRandomJokesNegative(com.icndb.random_jokes.TestRandomJokes)  Time elapsed: 0.303 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+
+testCountOfRandomJokesNegative(com.icndb.random_jokes.TestRandomJokes)  Time elapsed: 0.195 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+
+testCountOfRandomJokesNegative(com.icndb.random_jokes.TestRandomJokes)  Time elapsed: 0.167 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+
+testCountOfRandomJokesNegative(com.icndb.random_jokes.TestRandomJokes)  Time elapsed: 0.377 s  <<< FAILURE!
+java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+
+testCountOfRandomJokesPositive(com.icndb.random_jokes.TestRandomJokes)  Time elapsed: 0.325 s  <<< FAILURE!
+java.lang.AssertionError: expected [1000] but found [558]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesPositive(TestRandomJokes.java:74)
+

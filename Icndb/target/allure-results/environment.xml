@@ -1,0 +1,11 @@
+<environment>
+    <parameter>
+        <key>Site</key>
+        <value>http://www.icndb.com/</value>
+    </parameter>
+    <parameter>
+        <key>Documentation Api</key>
+        <value>http://www.icndb.com/api/</value>
+    </parameter>
+</environment>
+

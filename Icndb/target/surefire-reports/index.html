@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 18 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Icndb">
+              <span class="suite-name border-failed">Icndb</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Icndb">
+                    <span>D:\Program Files New\Eclipse\Icndb\XML_RUN\Run_all_test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Icndb">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Icndb">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Icndb">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Icndb">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Icndb">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Icndb">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 18 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Icndb" class="hide-methods failed suite-Icndb"> (hide)</a> <!-- hide-methods failed suite-Icndb -->
+                      <a href="#" panel-name="suite-Icndb" class="show-methods failed suite-Icndb"> (show)</a> <!-- show-methods failed suite-Icndb -->
+                    </span>
+                    <div class="method-list-content failed suite-Icndb">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesNegative(-1)">testCountOfRandomJokesNegative(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesNegative(qwery)">testCountOfRandomJokesNegative(qwery)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesNegative(1.5)">testCountOfRandomJokesNegative(1.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesNegative(0)">testCountOfRandomJokesNegative(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesPositive(1000)">testCountOfRandomJokesPositive(1000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesNegative(, )">testExcludeCategoriesNegative(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesNegative(explicit, qwerty)">testExcludeCategoriesNegative(explicit, qwerty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesNegative(qwerty, )">testExcludeCategoriesNegative(qwerty, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesNegative(qwerty, 123)">testExcludeCategoriesNegative(qwerty, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestCategories" hash-for-method="testIncorrectCategories">testIncorrectCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testIncorrectEndPointAfterJokes">testIncorrectEndPointAfterJokes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testIncorrectEndPointJokes">testIncorrectEndPointJokes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdNegative(-1)">testJokesByIdNegative(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdNegative(1.5)">testJokesByIdNegative(1.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesNegative(explicit, qwerty)">testLimitToCategoriesNegative(explicit, qwerty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesNegative(qwerty, 123)">testLimitToCategoriesNegative(qwerty, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesNegative(, )">testLimitToCategoriesNegative(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesNegative(qwerty, )">testLimitToCategoriesNegative(qwerty, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Icndb -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Icndb" class="hide-methods passed suite-Icndb"> (hide)</a> <!-- hide-methods passed suite-Icndb -->
+                      <a href="#" panel-name="suite-Icndb" class="show-methods passed suite-Icndb"> (show)</a> <!-- show-methods passed suite-Icndb -->
+                    </span>
+                    <div class="method-list-content passed suite-Icndb">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestCategories" hash-for-method="testAllCategories">testAllCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testChangeOfFirstnameAndLastname">testChangeOfFirstnameAndLastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testCountOfDisplayedJokes">testCountOfDisplayedJokes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testCountOfJokes">testCountOfJokes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesPositive(300)">testCountOfRandomJokesPositive(300)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesPositive(1)">testCountOfRandomJokesPositive(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testCountOfRandomJokesPositive(558)">testCountOfRandomJokesPositive(558)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesPositive(explicit, nerdy)">testExcludeCategoriesPositive(explicit, nerdy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesPositive(nerdy, )">testExcludeCategoriesPositive(nerdy, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestExcludeCategories" hash-for-method="testExcludeCategoriesPositive(explicit, )">testExcludeCategoriesPositive(explicit, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdNegative(0)">testJokesByIdNegative(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdPositive(603)">testJokesByIdPositive(603)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdPositive(385)">testJokesByIdPositive(385)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.jokes.TestJokes" hash-for-method="testJokesByIdPositive(1)">testJokesByIdPositive(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesPositive(explicit, nerdy)">testLimitToCategoriesPositive(explicit, nerdy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesPositive(nerdy, )">testLimitToCategoriesPositive(nerdy, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.categories.TestLimitToCategories" hash-for-method="testLimitToCategoriesPositive(explicit, )">testLimitToCategoriesPositive(explicit, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Icndb" title="com.icndb.random_jokes.TestRandomJokes" hash-for-method="testRandomJoke">testRandomJoke</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Icndb -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Icndb" class="panel Icndb">
+          <div class="suite-Icndb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.icndb.categories.TestExcludeCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesNegative(, )">
+                  </a> <!-- testExcludeCategoriesNegative(, ) -->
+                  <span class="method-name">testExcludeCategoriesNegative</span>
+                  <span class="parameters">(, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function exclude (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesNegative(explicit, qwerty)">
+                  </a> <!-- testExcludeCategoriesNegative(explicit, qwerty) -->
+                  <span class="method-name">testExcludeCategoriesNegative</span>
+                  <span class="parameters">(explicit, qwerty)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function exclude (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesNegative(qwerty, )">
+                  </a> <!-- testExcludeCategoriesNegative(qwerty, ) -->
+                  <span class="method-name">testExcludeCategoriesNegative</span>
+                  <span class="parameters">(qwerty, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function exclude (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesNegative(qwerty, 123)">
+                  </a> <!-- testExcludeCategoriesNegative(qwerty, 123) -->
+                  <span class="method-name">testExcludeCategoriesNegative</span>
+                  <span class="parameters">(qwerty, 123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestExcludeCategories.testExcludeCategoriesNegative(TestExcludeCategories.java:80)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function exclude (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-failed -->
+          <div class="suite-Icndb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.icndb.jokes.TestJokes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIncorrectEndPointAfterJokes">
+                  </a> <!-- testIncorrectEndPointAfterJokes -->
+                  <span class="method-name">testIncorrectEndPointAfterJokes</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:89)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:317)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)
+	at com.icndb.jokes.TestJokes.testIncorrectEndPointAfterJokes(TestJokes.java:123)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking for incorrect endpoint after jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIncorrectEndPointJokes">
+                  </a> <!-- testIncorrectEndPointJokes -->
+                  <span class="method-name">testIncorrectEndPointJokes</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:89)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:317)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)
+	at com.icndb.jokes.TestJokes.testIncorrectEndPointJokes(TestJokes.java:111)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking for incorrect endpoint jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdNegative(-1)">
+                  </a> <!-- testJokesByIdNegative(-1) -->
+                  <span class="method-name">testJokesByIdNegative</span>
+                  <span class="parameters">(-1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.jokes.TestJokes.testJokesByIdNegative(TestJokes.java:100)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking jokes by id (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdNegative(1.5)">
+                  </a> <!-- testJokesByIdNegative(1.5) -->
+                  <span class="method-name">testJokesByIdNegative</span>
+                  <span class="parameters">(1.5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.jokes.TestJokes.testJokesByIdNegative(TestJokes.java:100)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking jokes by id (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-failed -->
+          <div class="suite-Icndb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.icndb.categories.TestCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIncorrectCategories">
+                  </a> <!-- testIncorrectCategories -->
+                  <span class="method-name">testIncorrectCategories</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:483)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:89)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:317)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)
+	at com.icndb.categories.TestCategories.testIncorrectCategories(TestCategories.java:61)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking for incorrect endpoint categories.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-failed -->
+          <div class="suite-Icndb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.icndb.random_jokes.TestRandomJokes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesNegative(-1)">
+                  </a> <!-- testCountOfRandomJokesNegative(-1) -->
+                  <span class="method-name">testCountOfRandomJokesNegative</span>
+                  <span class="parameters">(-1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check the count of random jokes (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesNegative(qwery)">
+                  </a> <!-- testCountOfRandomJokesNegative(qwery) -->
+                  <span class="method-name">testCountOfRandomJokesNegative</span>
+                  <span class="parameters">(qwery)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check the count of random jokes (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesNegative(1.5)">
+                  </a> <!-- testCountOfRandomJokesNegative(1.5) -->
+                  <span class="method-name">testCountOfRandomJokesNegative</span>
+                  <span class="parameters">(1.5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check the count of random jokes (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesNegative(0)">
+                  </a> <!-- testCountOfRandomJokesNegative(0) -->
+                  <span class="method-name">testCountOfRandomJokesNegative</span>
+                  <span class="parameters">(0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchQuoteException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesNegative(TestRandomJokes.java:82)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check the count of random jokes (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesPositive(1000)">
+                  </a> <!-- testCountOfRandomJokesPositive(1000) -->
+                  <span class="method-name">testCountOfRandomJokesPositive</span>
+                  <span class="parameters">(1000)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1000] but found [558]
+	at com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesPositive(TestRandomJokes.java:74)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check the count of random jokes (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-failed -->
+          <div class="suite-Icndb-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.icndb.categories.TestLimitToCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesNegative(explicit, qwerty)">
+                  </a> <!-- testLimitToCategoriesNegative(explicit, qwerty) -->
+                  <span class="method-name">testLimitToCategoriesNegative</span>
+                  <span class="parameters">(explicit, qwerty)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function limitTo (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesNegative(qwerty, 123)">
+                  </a> <!-- testLimitToCategoriesNegative(qwerty, 123) -->
+                  <span class="method-name">testLimitToCategoriesNegative</span>
+                  <span class="parameters">(qwerty, 123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function limitTo (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesNegative(, )">
+                  </a> <!-- testLimitToCategoriesNegative(, ) -->
+                  <span class="method-name">testLimitToCategoriesNegative</span>
+                  <span class="parameters">(, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function limitTo (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesNegative(qwerty, )">
+                  </a> <!-- testLimitToCategoriesNegative(qwerty, ) -->
+                  <span class="method-name">testLimitToCategoriesNegative</span>
+                  <span class="parameters">(qwerty, )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [NoSuchCategoryException] but found [success]
+	at com.icndb.resources_data.RestUtilities.assertionType(RestUtilities.java:50)
+	at com.icndb.categories.TestLimitToCategories.testLimitToCategoriesNegative(TestLimitToCategories.java:77)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Checking function limitTo (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-failed -->
+          <div class="suite-Icndb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.icndb.categories.TestExcludeCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesPositive(explicit, nerdy)">
+                  </a> <!-- testExcludeCategoriesPositive(explicit, nerdy) -->
+                  <span class="method-name">testExcludeCategoriesPositive</span>
+                  <span class="parameters">(explicit, nerdy)</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesPositive(nerdy, )">
+                  </a> <!-- testExcludeCategoriesPositive(nerdy, ) -->
+                  <span class="method-name">testExcludeCategoriesPositive</span>
+                  <span class="parameters">(nerdy, )</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExcludeCategoriesPositive(explicit, )">
+                  </a> <!-- testExcludeCategoriesPositive(explicit, ) -->
+                  <span class="method-name">testExcludeCategoriesPositive</span>
+                  <span class="parameters">(explicit, )</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-passed -->
+          <div class="suite-Icndb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.icndb.jokes.TestJokes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfDisplayedJokes">
+                  </a> <!-- testCountOfDisplayedJokes -->
+                  <span class="method-name">testCountOfDisplayedJokes</span>
+                  <em>
+(Checking the number of displayed jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfJokes">
+                  </a> <!-- testCountOfJokes -->
+                  <span class="method-name">testCountOfJokes</span>
+                  <em>
+(Checking the amount of jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdNegative(0)">
+                  </a> <!-- testJokesByIdNegative(0) -->
+                  <span class="method-name">testJokesByIdNegative</span>
+                  <span class="parameters">(0)</span>
+                  <em>
+(Checking jokes by id (Negative test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdPositive(603)">
+                  </a> <!-- testJokesByIdPositive(603) -->
+                  <span class="method-name">testJokesByIdPositive</span>
+                  <span class="parameters">(603)</span>
+                  <em>
+(Checking jokes by id (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdPositive(385)">
+                  </a> <!-- testJokesByIdPositive(385) -->
+                  <span class="method-name">testJokesByIdPositive</span>
+                  <span class="parameters">(385)</span>
+                  <em>
+(Checking jokes by id (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJokesByIdPositive(1)">
+                  </a> <!-- testJokesByIdPositive(1) -->
+                  <span class="method-name">testJokesByIdPositive</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(Checking jokes by id (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-passed -->
+          <div class="suite-Icndb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.icndb.categories.TestCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllCategories">
+                  </a> <!-- testAllCategories -->
+                  <span class="method-name">testAllCategories</span>
+                  <em>
+(Check the categories of jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-passed -->
+          <div class="suite-Icndb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.icndb.random_jokes.TestRandomJokes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangeOfFirstnameAndLastname">
+                  </a> <!-- testChangeOfFirstnameAndLastname -->
+                  <span class="method-name">testChangeOfFirstnameAndLastname</span>
+                  <em>
+(Checking the change of firstname and lastname in joke.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesPositive(300)">
+                  </a> <!-- testCountOfRandomJokesPositive(300) -->
+                  <span class="method-name">testCountOfRandomJokesPositive</span>
+                  <span class="parameters">(300)</span>
+                  <em>
+(Check the count of random jokes (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesPositive(1)">
+                  </a> <!-- testCountOfRandomJokesPositive(1) -->
+                  <span class="method-name">testCountOfRandomJokesPositive</span>
+                  <span class="parameters">(1)</span>
+                  <em>
+(Check the count of random jokes (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCountOfRandomJokesPositive(558)">
+                  </a> <!-- testCountOfRandomJokesPositive(558) -->
+                  <span class="method-name">testCountOfRandomJokesPositive</span>
+                  <span class="parameters">(558)</span>
+                  <em>
+(Check the count of random jokes (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRandomJoke">
+                  </a> <!-- testRandomJoke -->
+                  <span class="method-name">testRandomJoke</span>
+                  <em>
+(Checking endpoint random jokes.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-passed -->
+          <div class="suite-Icndb-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.icndb.categories.TestLimitToCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesPositive(explicit, nerdy)">
+                  </a> <!-- testLimitToCategoriesPositive(explicit, nerdy) -->
+                  <span class="method-name">testLimitToCategoriesPositive</span>
+                  <span class="parameters">(explicit, nerdy)</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesPositive(nerdy, )">
+                  </a> <!-- testLimitToCategoriesPositive(nerdy, ) -->
+                  <span class="method-name">testLimitToCategoriesPositive</span>
+                  <span class="parameters">(nerdy, )</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLimitToCategoriesPositive(explicit, )">
+                  </a> <!-- testLimitToCategoriesPositive(explicit, ) -->
+                  <span class="method-name">testLimitToCategoriesPositive</span>
+                  <span class="parameters">(explicit, )</span>
+                  <em>
+(Checking function limitTo (Positive test).)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Icndb-class-passed -->
+        </div> <!-- panel Icndb -->
+        <div panel-name="test-xml-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Program Files New\Eclipse\Icndb\XML_RUN\Run_all_test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Icndb&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test categories.&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.icndb.categories&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.icndb.categories.TestCategories&quot;/&gt;
+      &lt;class name=&quot;com.icndb.categories.TestExcludeCategories&quot;/&gt;
+      &lt;class name=&quot;com.icndb.categories.TestLimitToCategories&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test categories. --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test jokes.&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.icndb.jokes&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.icndb.jokes.TestJokes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test jokes. --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test random jokes.&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.icndb.random_jokes&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.icndb.random_jokes.TestRandomJokes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test random jokes. --&gt;
+&lt;/suite&gt; &lt;!-- Icndb --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Icndb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test categories. (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test jokes. (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test random jokes. (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Icndb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Icndb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Icndb');
+function tableData_Icndb() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testExcludeCategoriesPositive')
+data.setCell(0, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(0, 3, 10708);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testExcludeCategoriesPositive')
+data.setCell(1, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(1, 3, 7295);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testExcludeCategoriesPositive')
+data.setCell(2, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(2, 3, 6602);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAllCategories')
+data.setCell(3, 2, 'com.icndb.categories.TestCategories')
+data.setCell(3, 3, 6586);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLimitToCategoriesPositive')
+data.setCell(4, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(4, 3, 3202);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLimitToCategoriesPositive')
+data.setCell(5, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(5, 3, 1575);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testExcludeCategoriesNegative')
+data.setCell(6, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(6, 3, 868);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCountOfRandomJokesPositive')
+data.setCell(7, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(7, 3, 820);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCountOfDisplayedJokes')
+data.setCell(8, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(8, 3, 701);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testJokesByIdNegative')
+data.setCell(9, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(9, 3, 531);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testIncorrectEndPointAfterJokes')
+data.setCell(10, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(10, 3, 452);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testExcludeCategoriesNegative')
+data.setCell(11, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(11, 3, 438);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testExcludeCategoriesNegative')
+data.setCell(12, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(12, 3, 430);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testChangeOfFirstnameAndLastname')
+data.setCell(13, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(13, 3, 424);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCountOfRandomJokesPositive')
+data.setCell(14, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(14, 3, 371);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLimitToCategoriesPositive')
+data.setCell(15, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(15, 3, 332);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testExcludeCategoriesNegative')
+data.setCell(16, 2, 'com.icndb.categories.TestExcludeCategories')
+data.setCell(16, 3, 329);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCountOfRandomJokesPositive')
+data.setCell(17, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(17, 3, 324);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testJokesByIdNegative')
+data.setCell(18, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(18, 3, 313);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCountOfRandomJokesNegative')
+data.setCell(19, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(19, 3, 302);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCountOfRandomJokesPositive')
+data.setCell(20, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(20, 3, 298);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testIncorrectCategories')
+data.setCell(21, 2, 'com.icndb.categories.TestCategories')
+data.setCell(21, 3, 272);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testLimitToCategoriesNegative')
+data.setCell(22, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(22, 3, 266);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCountOfJokes')
+data.setCell(23, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(23, 3, 259);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLimitToCategoriesNegative')
+data.setCell(24, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(24, 3, 227);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testJokesByIdPositive')
+data.setCell(25, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(25, 3, 219);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testRandomJoke')
+data.setCell(26, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(26, 3, 207);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLimitToCategoriesNegative')
+data.setCell(27, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(27, 3, 202);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testJokesByIdPositive')
+data.setCell(28, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(28, 3, 200);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCountOfRandomJokesNegative')
+data.setCell(29, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(29, 3, 195);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCountOfRandomJokesNegative')
+data.setCell(30, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(30, 3, 195);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testLimitToCategoriesNegative')
+data.setCell(31, 2, 'com.icndb.categories.TestLimitToCategories')
+data.setCell(31, 3, 194);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testJokesByIdNegative')
+data.setCell(32, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(32, 3, 193);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testJokesByIdPositive')
+data.setCell(33, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(33, 3, 189);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCountOfRandomJokesNegative')
+data.setCell(34, 2, 'com.icndb.random_jokes.TestRandomJokes')
+data.setCell(34, 3, 168);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testIncorrectEndPointJokes')
+data.setCell(35, 2, 'com.icndb.jokes.TestJokes')
+data.setCell(35, 3, 162);
+window.suiteTableData['Icndb']= { tableData: data, tableDiv: 'times-div-Icndb'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Icndb">
+              </div> <!-- times-div-Icndb -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Icndb</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.icndb.categories.TestExcludeCategories</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.icndb.categories.TestLimitToCategories</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Icndb" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.random_jokes.TestRandomJokes</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.categories.TestCategories</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAllCategories</span>
+                <span class="method-start">1618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testIncorrectCategories</span>
+                <span class="method-start">8528 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.categories.TestExcludeCategories</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExcludeCategoriesNegative(qwerty, )</span>
+                <span class="method-start">8880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExcludeCategoriesNegative(qwerty, 123)</span>
+                <span class="method-start">9751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExcludeCategoriesNegative(, )</span>
+                <span class="method-start">10184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExcludeCategoriesNegative(explicit, qwerty)</span>
+                <span class="method-start">10625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExcludeCategoriesPositive(explicit, )</span>
+                <span class="method-start">10957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExcludeCategoriesPositive(explicit, nerdy)</span>
+                <span class="method-start">21667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExcludeCategoriesPositive(nerdy, )</span>
+                <span class="method-start">28963 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.categories.TestLimitToCategories</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLimitToCategoriesNegative(qwerty, )</span>
+                <span class="method-start">35566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLimitToCategoriesNegative(qwerty, 123)</span>
+                <span class="method-start">35795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLimitToCategoriesNegative(, )</span>
+                <span class="method-start">36226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLimitToCategoriesNegative(explicit, qwerty)</span>
+                <span class="method-start">36494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLimitToCategoriesPositive(explicit, )</span>
+                <span class="method-start">36698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLimitToCategoriesPositive(explicit, nerdy)</span>
+                <span class="method-start">37031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLimitToCategoriesPositive(nerdy, )</span>
+                <span class="method-start">38607 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.jokes.TestJokes</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCountOfDisplayedJokes</span>
+                <span class="method-start">43584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCountOfJokes</span>
+                <span class="method-start">44287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testIncorrectEndPointAfterJokes</span>
+                <span class="method-start">44966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testIncorrectEndPointJokes</span>
+                <span class="method-start">45420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testJokesByIdNegative(0)</span>
+                <span class="method-start">45587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testJokesByIdNegative(-1)</span>
+                <span class="method-start">46120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testJokesByIdNegative(1.5)</span>
+                <span class="method-start">46435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testJokesByIdPositive(1)</span>
+                <span class="method-start">46631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testJokesByIdPositive(385)</span>
+                <span class="method-start">46853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testJokesByIdPositive(603)</span>
+                <span class="method-start">47043 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.icndb.random_jokes.TestRandomJokes</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChangeOfFirstnameAndLastname</span>
+                <span class="method-start">47296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCountOfRandomJokesNegative(0)</span>
+                <span class="method-start">47734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCountOfRandomJokesNegative(-1)</span>
+                <span class="method-start">48038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCountOfRandomJokesNegative(1.5)</span>
+                <span class="method-start">48235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCountOfRandomJokesNegative(qwery)</span>
+                <span class="method-start">48404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCountOfRandomJokesPositive(1)</span>
+                <span class="method-start">48783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCountOfRandomJokesPositive(558)</span>
+                <span class="method-start">49157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCountOfRandomJokesPositive(300)</span>
+                <span class="method-start">49979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCountOfRandomJokesPositive(1000)</span>
+                <span class="method-start">50278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRandomJoke</span>
+                <span class="method-start">50604 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

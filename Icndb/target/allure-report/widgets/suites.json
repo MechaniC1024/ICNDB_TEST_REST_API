@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "5e2a1ce6478865683589d5ac29485e4b",
+    "name" : "Icndb",
+    "statistic" : {
+      "failed" : 18,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 36
+    }
+  } ]
+}

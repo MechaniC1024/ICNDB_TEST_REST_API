@@ -1,0 +1,704 @@
+{
+  "a4a907e15c24b09da0d4f032cd6920b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccafb9313bfc5f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527760002,
+        "stop" : 1527527760531,
+        "duration" : 529
+      }
+    } ]
+  },
+  "3829cdefca726573607497375245765e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f422e74119af7312",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527760533,
+        "stop" : 1527527760845,
+        "duration" : 312
+      }
+    } ]
+  },
+  "c597185a87634930e9d7cf6fae947b07" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56d5c1b4d5157e1",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527750209,
+        "stop" : 1527527750402,
+        "duration" : 193
+      }
+    } ]
+  },
+  "533412ca21aa923774cba7cfd3dcc9d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b6dddf6262b415b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527725370,
+        "stop" : 1527527736077,
+        "duration" : 10707
+      }
+    } ]
+  },
+  "b1a20746f1fdb7ce7f677bfabf2c2b29" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be9a859a18538084",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
+      "time" : {
+        "start" : 1527527759379,
+        "stop" : 1527527759830,
+        "duration" : 451
+      }
+    } ]
+  },
+  "e08afe6d82fd1fe7d3249ce60e1fa312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b57b1a25305ba807",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527763572,
+        "stop" : 1527527764390,
+        "duration" : 818
+      }
+    } ]
+  },
+  "9f77177229ea688448a366174dc27d5d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6eeed2bc3524b1a",
+      "status" : "failed",
+      "statusDetails" : "expected [1000] but found [558]",
+      "time" : {
+        "start" : 1527527764691,
+        "stop" : 1527527765014,
+        "duration" : 323
+      }
+    } ]
+  },
+  "c394843b35dc12efb7003854b85a2347" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c48632d0675e757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527753021,
+        "stop" : 1527527756221,
+        "duration" : 3200
+      }
+    } ]
+  },
+  "cdf2e7a9eb31d08b5bcaf8143254011b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "839bdb41a7b8339c",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527750907,
+        "stop" : 1527527751109,
+        "duration" : 202
+      }
+    } ]
+  },
+  "e3af7347f2ebbb4b756899a79b0c1e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8725d9edace09616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527751112,
+        "stop" : 1527527751442,
+        "duration" : 330
+      }
+    } ]
+  },
+  "38c882c6063658e005fd8090f1007150" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8602be3546905821",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527763198,
+        "stop" : 1527527763566,
+        "duration" : 368
+      }
+    } ]
+  },
+  "d88552a00b1caca6cc38a08d12164225" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "952cb9e4cac7dbe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527751445,
+        "stop" : 1527527753018,
+        "duration" : 1573
+      }
+    } ]
+  },
+  "a3243f3fca965c501cc1429f6312d502" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8ff54873c5d5928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527761709,
+        "stop" : 1527527762132,
+        "duration" : 423
+      }
+    } ]
+  },
+  "9842a8910d4b357d9f991eb97e2ae887" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d4e733c3fa5d128",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
+      "time" : {
+        "start" : 1527527722943,
+        "stop" : 1527527723245,
+        "duration" : 302
+      }
+    } ]
+  },
+  "460cf2f8142f9eb85166dee5296a248d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37f524a91196c418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527716167,
+        "stop" : 1527527722619,
+        "duration" : 6452
+      }
+    } ]
+  },
+  "5c6ebcbcb4f6978fcd809614c018339a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9f283a345d92d90",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527762452,
+        "stop" : 1527527762645,
+        "duration" : 193
+      }
+    } ]
+  },
+  "5e7a52bdb87adf38c22f78704ed02be8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c9ff3410a5961d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527761044,
+        "stop" : 1527527761262,
+        "duration" : 218
+      }
+    } ]
+  },
+  "6cf143f4fc0c7d3eb042376cc19cf3f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b1ffc02ca8d850c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527761267,
+        "stop" : 1527527761454,
+        "duration" : 187
+      }
+    } ]
+  },
+  "1a3213fa7149b4ab3486626d2360db95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3070242b78e2b9e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527757997,
+        "stop" : 1527527758697,
+        "duration" : 700
+      }
+    } ]
+  },
+  "638beacce146dd13733c510ce7b7af50" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b762bc9afd38bc13",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527749980,
+        "stop" : 1527527750206,
+        "duration" : 226
+      }
+    } ]
+  },
+  "9a7fe4cdd6c4e1e6050c31f2b10ce11d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "845994b212e7d15",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527750639,
+        "stop" : 1527527750905,
+        "duration" : 266
+      }
+    } ]
+  },
+  "cedcb26580aad0bdf77649deb1f0d9a2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f9a2d3b90e3e130",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527724598,
+        "stop" : 1527527725035,
+        "duration" : 437
+      }
+    } ]
+  },
+  "72af756f8cfd8ee65c51814a16335fe3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54bd1aa690cdb340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527765017,
+        "stop" : 1527527765223,
+        "duration" : 206
+      }
+    } ]
+  },
+  "7ebdfef20de55a4bb0b674defc9da076" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "340625582d194546",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527725039,
+        "stop" : 1527527725367,
+        "duration" : 328
+      }
+    } ]
+  },
+  "a98e14599d810030e9dae26c2dda46f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa5b18c8a63c7e28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527764391,
+        "stop" : 1527527764689,
+        "duration" : 298
+      }
+    } ]
+  },
+  "4a62f3fe7db180614792de618a705ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f178fc2c5b2f8fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527761457,
+        "stop" : 1527527761655,
+        "duration" : 198
+      }
+    } ]
+  },
+  "c21193801ffb4746cde37352471c46dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d547a2f04b84cca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527743377,
+        "stop" : 1527527749977,
+        "duration" : 6600
+      }
+    } ]
+  },
+  "fb5ff25ed2a910ef9ea4f5eac4c32fc3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd9789b9cad55b11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527758700,
+        "stop" : 1527527758958,
+        "duration" : 258
+      }
+    } ]
+  },
+  "94d1e9e2ef3c49b34e4a5be50e3f0ed0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d730f129b62fea7",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527762817,
+        "stop" : 1527527763011,
+        "duration" : 194
+      }
+    } ]
+  },
+  "69ad31d35b3c0a0ac68ba8b9cf591664" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8fa252eca6657bf",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <404> but was <200>.\n",
+      "time" : {
+        "start" : 1527527759833,
+        "stop" : 1527527759995,
+        "duration" : 162
+      }
+    } ]
+  },
+  "536d7581a946c1ce6a768b9d5d52941d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "363bb1aba18ecbcf",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527760848,
+        "stop" : 1527527761041,
+        "duration" : 193
+      }
+    } ]
+  },
+  "53246204520713576655595fda607d32" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4e69e72268bb578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527527736082,
+        "stop" : 1527527743374,
+        "duration" : 7292
+      }
+    } ]
+  },
+  "aa2a20f27acdaebeb1b9177b9f3be7e3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd166b49b37420bc",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527724165,
+        "stop" : 1527527724594,
+        "duration" : 429
+      }
+    } ]
+  },
+  "2ccb0a65da50b72d9395f6a054167dc2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ea7965826fab54",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527762649,
+        "stop" : 1527527762815,
+        "duration" : 166
+      }
+    } ]
+  },
+  "ecb3270036437a081032a27d73139feb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e1e461d0aea72e",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchQuoteException] but found [success]",
+      "time" : {
+        "start" : 1527527762147,
+        "stop" : 1527527762448,
+        "duration" : 301
+      }
+    } ]
+  },
+  "d97a13198f14535d6c24497e206ea8ff" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82f179afcf5d86c0",
+      "status" : "failed",
+      "statusDetails" : "expected [NoSuchCategoryException] but found [success]",
+      "time" : {
+        "start" : 1527527723306,
+        "stop" : 1527527724161,
+        "duration" : 855
+      }
+    } ]
+  }
+}

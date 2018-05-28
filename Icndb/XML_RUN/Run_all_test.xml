@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Icndb" verbose="1">
+	<test name="Test categories.">
+		<packages>
+			<package name="com.icndb.categories" />
+		</packages>
+	</test>
+
+	<test name="Test jokes.">
+		<packages>
+			<package name="com.icndb.jokes" />
+		</packages>
+	</test>
+
+	<test name="Test random jokes.">
+		<packages>
+			<package name="com.icndb.random_jokes" />
+		</packages>
+	</test>
+</suite>

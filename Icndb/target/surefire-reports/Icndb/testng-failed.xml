@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Icndb]">
+  <test thread-count="5" verbose="0" name="Test categories.(failed)">
+    <classes>
+      <class name="com.icndb.categories.TestExcludeCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testExcludeCategoriesNegative" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestExcludeCategories -->
+      <class name="com.icndb.categories.TestCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testIncorrectCategories"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestCategories -->
+      <class name="com.icndb.categories.TestLimitToCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testLimitToCategoriesNegative" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestLimitToCategories -->
+    </classes>
+  </test> <!-- Test categories.(failed) -->
+  <test thread-count="5" verbose="0" name="Test jokes.(failed)">
+    <classes>
+      <class name="com.icndb.jokes.TestJokes">
+        <methods>
+          <include name="testIncorrectEndPointJokes"/>
+          <include name="setUpSuite"/>
+          <include name="testIncorrectEndPointAfterJokes"/>
+          <include name="testJokesByIdNegative" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.icndb.jokes.TestJokes -->
+    </classes>
+  </test> <!-- Test jokes.(failed) -->
+  <test thread-count="5" verbose="0" name="Test random jokes.(failed)">
+    <classes>
+      <class name="com.icndb.random_jokes.TestRandomJokes">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testCountOfRandomJokesNegative" invocation-numbers="0 1 2 3"/>
+          <include name="testCountOfRandomJokesPositive" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.icndb.random_jokes.TestRandomJokes -->
+    </classes>
+  </test> <!-- Test random jokes.(failed) -->
+</suite> <!-- Failed suite [Icndb] -->

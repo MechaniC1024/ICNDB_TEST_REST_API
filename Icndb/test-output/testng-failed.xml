@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Icndb]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.icndb.categories.TestLimitToCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testLimitToCategoriesNegative" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestLimitToCategories -->
+      <class name="com.icndb.categories.TestExcludeCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testExcludeCategoriesNegative" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestExcludeCategories -->
+      <class name="com.icndb.categories.TestCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testIncorrectCategories"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestCategories -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Icndb] -->
