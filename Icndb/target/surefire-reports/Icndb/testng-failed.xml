@@ -3,6 +3,12 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Icndb]">
   <test thread-count="5" verbose="0" name="Test categories.(failed)">
     <classes>
+      <class name="com.icndb.categories.TestLimitToCategories">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="testLimitToCategoriesNegative" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.icndb.categories.TestLimitToCategories -->
       <class name="com.icndb.categories.TestExcludeCategories">
         <methods>
           <include name="setUpSuite"/>
@@ -15,12 +21,6 @@
           <include name="testIncorrectCategories"/>
         </methods>
       </class> <!-- com.icndb.categories.TestCategories -->
-      <class name="com.icndb.categories.TestLimitToCategories">
-        <methods>
-          <include name="setUpSuite"/>
-          <include name="testLimitToCategoriesNegative" invocation-numbers="0 1 2 3"/>
-        </methods>
-      </class> <!-- com.icndb.categories.TestLimitToCategories -->
     </classes>
   </test> <!-- Test categories.(failed) -->
   <test thread-count="5" verbose="0" name="Test jokes.(failed)">

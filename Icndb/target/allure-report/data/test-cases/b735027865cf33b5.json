@@ -1,0 +1,95 @@
+{
+  "uid" : "b735027865cf33b5",
+  "name" : "Check the count of random jokes (Positive test).",
+  "fullName" : "com.icndb.random_jokes.TestRandomJokes.testCountOfRandomJokesPositive",
+  "historyId" : "38c882c6063658e005fd8090f1007150",
+  "time" : {
+    "start" : 1527934729283,
+    "stop" : 1527934729482,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Initial configuration suite.",
+    "time" : {
+      "start" : 1527934676702,
+      "stop" : 1527934678398,
+      "duration" : 1696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "10485b998d69982a",
+      "name" : "Request",
+      "source" : "10485b998d69982a.html",
+      "type" : "text/html",
+      "size" : 233
+    }, {
+      "uid" : "bf6397512ebf636",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "bf6397512ebf636.html",
+      "type" : "text/html",
+      "size" : 1189
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.icndb.random_jokes.TestRandomJokes"
+  }, {
+    "name" : "testClass",
+    "value" : "com.icndb.random_jokes.TestRandomJokes"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCountOfRandomJokesPositive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Icndb"
+  }, {
+    "name" : "suite",
+    "value" : "Test random jokes."
+  }, {
+    "name" : "subSuite",
+    "value" : "com.icndb.random_jokes.TestRandomJokes"
+  }, {
+    "name" : "host",
+    "value" : "Admin_PC"
+  }, {
+    "name" : "thread",
+    "value" : "7568@Admin_PC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b735027865cf33b5.json",
+  "parameterValues" : [ "1" ]
+}

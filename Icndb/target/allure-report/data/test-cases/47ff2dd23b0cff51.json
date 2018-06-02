@@ -1,0 +1,104 @@
+{
+  "uid" : "47ff2dd23b0cff51",
+  "name" : "Checking function limitTo (Positive test).",
+  "fullName" : "com.icndb.categories.TestLimitToCategories.testLimitToCategoriesPositive",
+  "historyId" : "c394843b35dc12efb7003854b85a2347",
+  "time" : {
+    "start" : 1527934718879,
+    "stop" : 1527934721267,
+    "duration" : 2388
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Initial configuration suite.",
+    "time" : {
+      "start" : 1527934676702,
+      "stop" : 1527934678398,
+      "duration" : 1696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b7848a8145f3fcba",
+      "name" : "Request",
+      "source" : "b7848a8145f3fcba.html",
+      "type" : "text/html",
+      "size" : 249
+    }, {
+      "uid" : "cf46f600acdd4fbb",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "cf46f600acdd4fbb.html",
+      "type" : "text/html",
+      "size" : 27466
+    }, {
+      "uid" : "bc85262f0a35f3b4",
+      "name" : "CATEGORIES: ",
+      "source" : "bc85262f0a35f3b4.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.icndb.categories.TestLimitToCategories"
+  }, {
+    "name" : "testClass",
+    "value" : "com.icndb.categories.TestLimitToCategories"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLimitToCategoriesPositive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Icndb"
+  }, {
+    "name" : "suite",
+    "value" : "Test categories."
+  }, {
+    "name" : "subSuite",
+    "value" : "com.icndb.categories.TestLimitToCategories"
+  }, {
+    "name" : "host",
+    "value" : "Admin_PC"
+  }, {
+    "name" : "thread",
+    "value" : "7568@Admin_PC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "nerdy"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47ff2dd23b0cff51.json",
+  "parameterValues" : [ "nerdy", "" ]
+}

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="18" ignored="2" total="38" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Icndb" duration-ms="49256" started-at="2018-05-28T17:15:15Z" finished-at="2018-05-28T17:16:05Z">
+  <suite name="Icndb" duration-ms="54571" started-at="2018-06-02T10:17:58Z" finished-at="2018-06-02T10:18:52Z">
     <groups>
     </groups>
-    <test name="Test categories." duration-ms="40343" started-at="2018-05-28T17:15:15Z" finished-at="2018-05-28T17:15:56Z">
+    <test name="Test categories." duration-ms="42895" started-at="2018-06-02T10:17:58Z" finished-at="2018-06-02T10:18:41Z">
       <class name="com.icndb.categories.TestCategories">
-        <test-method status="PASS" signature="testAllCategories()[pri:0, instance:com.icndb.categories.TestCategories@3fa2213]" name="testAllCategories" duration-ms="6586" started-at="2018-05-28T17:15:16Z" description="Check the categories of jokes." finished-at="2018-05-28T17:15:22Z">
+        <test-method status="PASS" signature="testAllCategories()[pri:0, instance:com.icndb.categories.TestCategories@488eb7f2]" name="testAllCategories" duration-ms="5058" started-at="2018-06-02T10:17:58Z" description="Check the categories of jokes." finished-at="2018-06-02T10:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllCategories -->
-        <test-method status="FAIL" signature="testIncorrectCategories()[pri:0, instance:com.icndb.categories.TestCategories@3fa2213]" name="testIncorrectCategories" duration-ms="272" started-at="2018-05-28T17:15:22Z" description="Checking for incorrect endpoint categories." finished-at="2018-05-28T17:15:23Z">
+        <test-method status="FAIL" signature="testIncorrectCategories()[pri:0, instance:com.icndb.categories.TestCategories@488eb7f2]" name="testIncorrectCategories" duration-ms="235" started-at="2018-06-02T10:18:03Z" description="Checking for incorrect endpoint categories." finished-at="2018-06-02T10:18:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -75,7 +75,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
         </test-method> <!-- testIncorrectCategories -->
       </class> <!-- com.icndb.categories.TestCategories -->
       <class name="com.icndb.categories.TestLimitToCategories">
-        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesNegative" duration-ms="227" started-at="2018-05-28T17:15:49Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:50Z">
+        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesNegative" duration-ms="619" started-at="2018-06-02T10:18:34Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesNegative -->
-        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesNegative" duration-ms="194" started-at="2018-05-28T17:15:50Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:50Z">
+        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesNegative" duration-ms="192" started-at="2018-06-02T10:18:35Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesNegative -->
-        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesNegative" duration-ms="266" started-at="2018-05-28T17:15:50Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:50Z">
+        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesNegative" duration-ms="185" started-at="2018-06-02T10:18:35Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesNegative -->
-        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesNegative" duration-ms="202" started-at="2018-05-28T17:15:50Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:51Z">
+        <test-method status="FAIL" signature="testLimitToCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesNegative" duration-ms="522" started-at="2018-06-02T10:18:35Z" description="Checking function limitTo (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:36Z">
           <params>
             <param index="0">
               <value>
@@ -323,7 +323,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesNegative -->
-        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesPositive" duration-ms="332" started-at="2018-05-28T17:15:51Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:51Z">
+        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesPositive" duration-ms="964" started-at="2018-06-02T10:18:36Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:37Z">
           <params>
             <param index="0">
               <value>
@@ -339,7 +339,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesPositive -->
-        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesPositive" duration-ms="1575" started-at="2018-05-28T17:15:51Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:53Z">
+        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesPositive" duration-ms="1574" started-at="2018-06-02T10:18:37Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:38Z">
           <params>
             <param index="0">
               <value>
@@ -355,7 +355,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLimitToCategoriesPositive -->
-        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@6f0b0a5e]" name="testLimitToCategoriesPositive" duration-ms="3202" started-at="2018-05-28T17:15:53Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:56Z">
+        <test-method status="PASS" signature="testLimitToCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestLimitToCategories@4189d70b]" name="testLimitToCategoriesPositive" duration-ms="2389" started-at="2018-06-02T10:18:38Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:41Z">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
         </test-method> <!-- testLimitToCategoriesPositive -->
       </class> <!-- com.icndb.categories.TestLimitToCategories -->
       <class name="com.icndb.categories.TestExcludeCategories">
-        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesNegative" duration-ms="868" started-at="2018-05-28T17:15:23Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:24Z">
+        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesNegative" duration-ms="1174" started-at="2018-06-02T10:18:04Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:05Z">
           <params>
             <param index="0">
               <value>
@@ -435,7 +435,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesNegative -->
-        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesNegative" duration-ms="430" started-at="2018-05-28T17:15:24Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:24Z">
+        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesNegative" duration-ms="694" started-at="2018-06-02T10:18:05Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -497,7 +497,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesNegative -->
-        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesNegative" duration-ms="438" started-at="2018-05-28T17:15:24Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:25Z">
+        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesNegative" duration-ms="433" started-at="2018-06-02T10:18:06Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -559,7 +559,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesNegative -->
-        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesNegative" duration-ms="329" started-at="2018-05-28T17:15:25Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-05-28T17:15:25Z">
+        <test-method status="FAIL" signature="testExcludeCategoriesNegative(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesNegative" duration-ms="1393" started-at="2018-06-02T10:18:06Z" description="Checking function exclude (Negative test)." data-provider="negativeExcludeAndLimitTo" finished-at="2018-06-02T10:18:07Z">
           <params>
             <param index="0">
               <value>
@@ -621,7 +621,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesNegative -->
-        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesPositive" duration-ms="10708" started-at="2018-05-28T17:15:25Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:36Z">
+        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesPositive" duration-ms="11178" started-at="2018-06-02T10:18:07Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:19Z">
           <params>
             <param index="0">
               <value>
@@ -637,7 +637,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesPositive -->
-        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesPositive" duration-ms="7295" started-at="2018-05-28T17:15:36Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:43Z">
+        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesPositive" duration-ms="6979" started-at="2018-06-02T10:18:19Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:26Z">
           <params>
             <param index="0">
               <value>
@@ -653,7 +653,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExcludeCategoriesPositive -->
-        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@3e7634b9]" name="testExcludeCategoriesPositive" duration-ms="6602" started-at="2018-05-28T17:15:43Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-05-28T17:15:49Z">
+        <test-method status="PASS" signature="testExcludeCategoriesPositive(java.lang.String, java.lang.String)[pri:0, instance:com.icndb.categories.TestExcludeCategories@5e81e5ac]" name="testExcludeCategoriesPositive" duration-ms="8758" started-at="2018-06-02T10:18:26Z" description="Checking function limitTo (Positive test)." data-provider="positiveExcludeAndLimitTo" finished-at="2018-06-02T10:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -671,17 +671,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
         </test-method> <!-- testExcludeCategoriesPositive -->
       </class> <!-- com.icndb.categories.TestExcludeCategories -->
     </test> <!-- Test categories. -->
-    <test name="Test jokes." duration-ms="3661" started-at="2018-05-28T17:15:57Z" finished-at="2018-05-28T17:16:01Z">
+    <test name="Test jokes." duration-ms="5405" started-at="2018-06-02T10:18:41Z" finished-at="2018-06-02T10:18:46Z">
       <class name="com.icndb.jokes.TestJokes">
-        <test-method status="PASS" signature="testCountOfDisplayedJokes()[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testCountOfDisplayedJokes" duration-ms="701" started-at="2018-05-28T17:15:57Z" description="Checking the number of displayed jokes." finished-at="2018-05-28T17:15:58Z">
+        <test-method status="PASS" signature="testCountOfDisplayedJokes()[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testCountOfDisplayedJokes" duration-ms="369" started-at="2018-06-02T10:18:41Z" description="Checking the number of displayed jokes." finished-at="2018-06-02T10:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfDisplayedJokes -->
-        <test-method status="PASS" signature="testCountOfJokes()[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testCountOfJokes" duration-ms="259" started-at="2018-05-28T17:15:58Z" description="Checking the amount of jokes." finished-at="2018-05-28T17:15:58Z">
+        <test-method status="PASS" signature="testCountOfJokes()[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testCountOfJokes" duration-ms="506" started-at="2018-06-02T10:18:41Z" description="Checking the amount of jokes." finished-at="2018-06-02T10:18:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfJokes -->
-        <test-method status="FAIL" signature="testIncorrectEndPointAfterJokes()[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testIncorrectEndPointAfterJokes" duration-ms="452" started-at="2018-05-28T17:15:59Z" description="Checking for incorrect endpoint after jokes." finished-at="2018-05-28T17:15:59Z">
+        <test-method status="FAIL" signature="testIncorrectEndPointAfterJokes()[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testIncorrectEndPointAfterJokes" duration-ms="1181" started-at="2018-06-02T10:18:42Z" description="Checking for incorrect endpoint after jokes." finished-at="2018-06-02T10:18:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -741,7 +741,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIncorrectEndPointAfterJokes -->
-        <test-method status="FAIL" signature="testIncorrectEndPointJokes()[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testIncorrectEndPointJokes" duration-ms="162" started-at="2018-05-28T17:15:59Z" description="Checking for incorrect endpoint jokes." finished-at="2018-05-28T17:15:59Z">
+        <test-method status="FAIL" signature="testIncorrectEndPointJokes()[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testIncorrectEndPointJokes" duration-ms="177" started-at="2018-06-02T10:18:43Z" description="Checking for incorrect endpoint jokes." finished-at="2018-06-02T10:18:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -801,7 +801,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIncorrectEndPointJokes -->
-        <test-method status="PASS" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdNegative" duration-ms="531" started-at="2018-05-28T17:15:59Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-05-28T17:16:00Z">
+        <test-method status="PASS" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdNegative" duration-ms="234" started-at="2018-06-02T10:18:43Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-06-02T10:18:43Z">
           <params>
             <param index="0">
               <value>
@@ -812,7 +812,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJokesByIdNegative -->
-        <test-method status="FAIL" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdNegative" duration-ms="313" started-at="2018-05-28T17:16:00Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-05-28T17:16:00Z">
+        <test-method status="FAIL" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdNegative" duration-ms="1333" started-at="2018-06-02T10:18:43Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-06-02T10:18:45Z">
           <params>
             <param index="0">
               <value>
@@ -869,7 +869,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJokesByIdNegative -->
-        <test-method status="FAIL" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdNegative" duration-ms="193" started-at="2018-05-28T17:16:00Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-05-28T17:16:01Z">
+        <test-method status="FAIL" signature="testJokesByIdNegative(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdNegative" duration-ms="189" started-at="2018-06-02T10:18:45Z" description="Checking jokes by id (Negative test)." data-provider="negativeIdJoke" finished-at="2018-06-02T10:18:45Z">
           <params>
             <param index="0">
               <value>
@@ -926,7 +926,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJokesByIdNegative -->
-        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdPositive" duration-ms="219" started-at="2018-05-28T17:16:01Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-05-28T17:16:01Z">
+        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdPositive" duration-ms="204" started-at="2018-06-02T10:18:45Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-06-02T10:18:45Z">
           <params>
             <param index="0">
               <value>
@@ -937,7 +937,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJokesByIdPositive -->
-        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdPositive" duration-ms="189" started-at="2018-05-28T17:16:01Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-05-28T17:16:01Z">
+        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdPositive" duration-ms="358" started-at="2018-06-02T10:18:45Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-06-02T10:18:46Z">
           <params>
             <param index="0">
               <value>
@@ -948,7 +948,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJokesByIdPositive -->
-        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@34997338]" name="testJokesByIdPositive" duration-ms="200" started-at="2018-05-28T17:16:01Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-05-28T17:16:01Z">
+        <test-method status="PASS" signature="testJokesByIdPositive(java.lang.String)[pri:0, instance:com.icndb.jokes.TestJokes@4504d271]" name="testJokesByIdPositive" duration-ms="804" started-at="2018-06-02T10:18:46Z" description="Checking jokes by id (Positive test)." data-provider="positiveIdJoke" finished-at="2018-06-02T10:18:46Z">
           <params>
             <param index="0">
               <value>
@@ -961,17 +961,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
         </test-method> <!-- testJokesByIdPositive -->
       </class> <!-- com.icndb.jokes.TestJokes -->
     </test> <!-- Test jokes. -->
-    <test name="Test random jokes." duration-ms="3517" started-at="2018-05-28T17:16:01Z" finished-at="2018-05-28T17:16:05Z">
+    <test name="Test random jokes." duration-ms="6132" started-at="2018-06-02T10:18:46Z" finished-at="2018-06-02T10:18:52Z">
       <class name="com.icndb.random_jokes.TestRandomJokes">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="setUpSuite" is-config="true" duration-ms="1551" started-at="2018-05-28T17:15:14Z" description="Initial configuration suite." finished-at="2018-05-28T17:15:15Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="setUpSuite" is-config="true" duration-ms="1779" started-at="2018-06-02T10:17:56Z" description="Initial configuration suite." finished-at="2018-06-02T10:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="testChangeOfFirstnameAndLastname()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testChangeOfFirstnameAndLastname" duration-ms="424" started-at="2018-05-28T17:16:01Z" description="Checking the change of firstname and lastname in joke." finished-at="2018-05-28T17:16:02Z">
+        <test-method status="PASS" signature="testChangeOfFirstnameAndLastname()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testChangeOfFirstnameAndLastname" duration-ms="581" started-at="2018-06-02T10:18:46Z" description="Checking the change of firstname and lastname in joke." finished-at="2018-06-02T10:18:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangeOfFirstnameAndLastname -->
-        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesNegative" duration-ms="302" started-at="2018-05-28T17:16:02Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-05-28T17:16:02Z">
+        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesNegative" duration-ms="205" started-at="2018-06-02T10:18:47Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-06-02T10:18:47Z">
           <params>
             <param index="0">
               <value>
@@ -1028,7 +1028,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesNegative -->
-        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesNegative" duration-ms="195" started-at="2018-05-28T17:16:02Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-05-28T17:16:02Z">
+        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesNegative" duration-ms="408" started-at="2018-06-02T10:18:47Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-06-02T10:18:48Z">
           <params>
             <param index="0">
               <value>
@@ -1085,7 +1085,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesNegative -->
-        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesNegative" duration-ms="168" started-at="2018-05-28T17:16:02Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-05-28T17:16:02Z">
+        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesNegative" duration-ms="984" started-at="2018-06-02T10:18:48Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-06-02T10:18:49Z">
           <params>
             <param index="0">
               <value>
@@ -1142,7 +1142,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesNegative -->
-        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesNegative" duration-ms="195" started-at="2018-05-28T17:16:02Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-05-28T17:16:03Z">
+        <test-method status="FAIL" signature="testCountOfRandomJokesNegative(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesNegative" duration-ms="249" started-at="2018-06-02T10:18:49Z" description="Check the count of random jokes (Negative test)." data-provider="negativeCountOfRandomJokes" finished-at="2018-06-02T10:18:49Z">
           <params>
             <param index="0">
               <value>
@@ -1199,7 +1199,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesNegative -->
-        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesPositive" duration-ms="371" started-at="2018-05-28T17:16:03Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-05-28T17:16:03Z">
+        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesPositive" duration-ms="201" started-at="2018-06-02T10:18:49Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-06-02T10:18:49Z">
           <params>
             <param index="0">
               <value>
@@ -1210,7 +1210,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesPositive -->
-        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesPositive" duration-ms="820" started-at="2018-05-28T17:16:03Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-05-28T17:16:04Z">
+        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesPositive" duration-ms="355" started-at="2018-06-02T10:18:49Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-06-02T10:18:49Z">
           <params>
             <param index="0">
               <value>
@@ -1221,7 +1221,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesPositive -->
-        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesPositive" duration-ms="298" started-at="2018-05-28T17:16:04Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-05-28T17:16:04Z">
+        <test-method status="PASS" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesPositive" duration-ms="1460" started-at="2018-06-02T10:18:49Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-06-02T10:18:51Z">
           <params>
             <param index="0">
               <value>
@@ -1232,7 +1232,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesPositive -->
-        <test-method status="FAIL" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testCountOfRandomJokesPositive" duration-ms="324" started-at="2018-05-28T17:16:04Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-05-28T17:16:05Z">
+        <test-method status="FAIL" signature="testCountOfRandomJokesPositive(java.lang.String)[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testCountOfRandomJokesPositive" duration-ms="431" started-at="2018-06-02T10:18:51Z" description="Check the count of random jokes (Positive test)." data-provider="positiveCountOfRandomJokes" finished-at="2018-06-02T10:18:51Z">
           <params>
             <param index="0">
               <value>
@@ -1288,7 +1288,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCountOfRandomJokesPositive -->
-        <test-method status="PASS" signature="testRandomJoke()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@f667fe]" name="testRandomJoke" duration-ms="207" started-at="2018-05-28T17:16:05Z" description="Checking endpoint random jokes." finished-at="2018-05-28T17:16:05Z">
+        <test-method status="PASS" signature="testRandomJoke()[pri:0, instance:com.icndb.random_jokes.TestRandomJokes@7c209437]" name="testRandomJoke" duration-ms="1234" started-at="2018-06-02T10:18:51Z" description="Checking endpoint random jokes." finished-at="2018-06-02T10:18:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRandomJoke -->

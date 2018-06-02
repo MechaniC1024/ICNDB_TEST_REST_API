@@ -4,441 +4,441 @@
   "children" : [ {
     "name" : "Admin_PC",
     "children" : [ {
-      "name" : "11948@Admin_PC.main(1)",
+      "name" : "7568@Admin_PC.main(1)",
       "children" : [ {
-        "name" : "Checking jokes by id (Positive test).",
-        "uid" : "3c9ff3410a5961d0",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527761044,
-          "stop" : 1527527761262,
-          "duration" : 218
-        },
-        "flaky" : false,
-        "parameters" : [ "1" ]
-      }, {
-        "name" : "Check the categories of jokes.",
-        "uid" : "37f524a91196c418",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527716167,
-          "stop" : 1527527722619,
-          "duration" : 6452
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Checking function limitTo (Positive test).",
-        "uid" : "8725d9edace09616",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527751112,
-          "stop" : 1527527751442,
-          "duration" : 330
-        },
-        "flaky" : false,
-        "parameters" : [ "explicit", "" ]
-      }, {
-        "name" : "Check the count of random jokes (Positive test).",
-        "uid" : "fa5b18c8a63c7e28",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527764391,
-          "stop" : 1527527764689,
-          "duration" : 298
-        },
-        "flaky" : false,
-        "parameters" : [ "300" ]
-      }, {
-        "name" : "Checking function exclude (Negative test).",
-        "uid" : "82f179afcf5d86c0",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "name" : "Check the count of random jokes (Negative test).",
+        "uid" : "1050b68c1f54567c",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527723306,
-          "stop" : 1527527724161,
-          "duration" : 855
+          "start" : 1527934727424,
+          "stop" : 1527934727628,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "parameters" : [ "0" ]
+      }, {
+        "name" : "Checking function exclude (Negative test).",
+        "uid" : "8a3fd962f32b016a",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934684184,
+          "stop" : 1527934685356,
+          "duration" : 1172
         },
         "flaky" : false,
         "parameters" : [ "qwerty", "" ]
       }, {
-        "name" : "Checking the change of firstname and lastname in joke.",
-        "uid" : "f8ff54873c5d5928",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527761709,
-          "stop" : 1527527762132,
-          "duration" : 423
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check the count of random jokes (Positive test).",
-        "uid" : "e6eeed2bc3524b1a",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527764691,
-          "stop" : 1527527765014,
-          "duration" : 323
-        },
-        "flaky" : false,
-        "parameters" : [ "1000" ]
-      }, {
         "name" : "Checking function limitTo (Negative test).",
-        "uid" : "845994b212e7d15",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "736cdf7c8b5501f1",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527750639,
-          "stop" : 1527527750905,
-          "duration" : 266
+          "start" : 1527934715434,
+          "stop" : 1527934715625,
+          "duration" : 191
         },
         "flaky" : false,
-        "parameters" : [ "", "" ]
+        "parameters" : [ "qwerty", "123" ]
       }, {
         "name" : "Check the count of random jokes (Negative test).",
-        "uid" : "6d730f129b62fea7",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "1be7574210c223e7",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527762817,
-          "stop" : 1527527763011,
-          "duration" : 194
+          "start" : 1527934728044,
+          "stop" : 1527934729028,
+          "duration" : 984
         },
         "flaky" : false,
-        "parameters" : [ "qwery" ]
+        "parameters" : [ "1.5" ]
       }, {
         "name" : "Checking function limitTo (Positive test).",
-        "uid" : "d547a2f04b84cca0",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "47ff2dd23b0cff51",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "passed",
         "time" : {
-          "start" : 1527527743377,
-          "stop" : 1527527749977,
-          "duration" : 6600
+          "start" : 1527934718879,
+          "stop" : 1527934721267,
+          "duration" : 2388
         },
         "flaky" : false,
         "parameters" : [ "nerdy", "" ]
       }, {
-        "name" : "Checking function exclude (Negative test).",
-        "uid" : "340625582d194546",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "name" : "Checking function limitTo (Negative test).",
+        "uid" : "3dc307e6e45a085d",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527725039,
-          "stop" : 1527527725367,
-          "duration" : 328
+          "start" : 1527934714811,
+          "stop" : 1527934715430,
+          "duration" : 619
+        },
+        "flaky" : false,
+        "parameters" : [ "qwerty", "" ]
+      }, {
+        "name" : "Check the count of random jokes (Positive test).",
+        "uid" : "3504f4b4c45a24d1",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934731302,
+          "stop" : 1527934731732,
+          "duration" : 430
+        },
+        "flaky" : false,
+        "parameters" : [ "1000" ]
+      }, {
+        "name" : "Checking function limitTo (Positive test).",
+        "uid" : "605e50c9416e5fbb",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934699069,
+          "stop" : 1527934706047,
+          "duration" : 6978
+        },
+        "flaky" : false,
+        "parameters" : [ "explicit", "nerdy" ]
+      }, {
+        "name" : "Checking function limitTo (Negative test).",
+        "uid" : "fc923b37f61805be",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934715815,
+          "stop" : 1527934716335,
+          "duration" : 520
+        },
+        "flaky" : false,
+        "parameters" : [ "explicit", "qwerty" ]
+      }, {
+        "name" : "Checking jokes by id (Positive test).",
+        "uid" : "86de200567be504c",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934725658,
+          "stop" : 1527934726015,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "parameters" : [ "385" ]
+      }, {
+        "name" : "Checking endpoint random jokes.",
+        "uid" : "472d9a1a47f4210",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934731735,
+          "stop" : 1527934732967,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checking function limitTo (Positive test).",
+        "uid" : "88dbc8b4052547a2",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934716338,
+          "stop" : 1527934717301,
+          "duration" : 963
+        },
+        "flaky" : false,
+        "parameters" : [ "explicit", "" ]
+      }, {
+        "name" : "Checking function limitTo (Positive test).",
+        "uid" : "6ebe27edb8ad14cd",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934706053,
+          "stop" : 1527934714807,
+          "duration" : 8754
+        },
+        "flaky" : false,
+        "parameters" : [ "nerdy", "" ]
+      }, {
+        "name" : "Check the count of random jokes (Positive test).",
+        "uid" : "c94129b92d881606",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934729485,
+          "stop" : 1527934729838,
+          "duration" : 353
+        },
+        "flaky" : false,
+        "parameters" : [ "558" ]
+      }, {
+        "name" : "Checking function exclude (Negative test).",
+        "uid" : "8527976ca94996e8",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934686494,
+          "stop" : 1527934687885,
+          "duration" : 1391
         },
         "flaky" : false,
         "parameters" : [ "explicit", "qwerty" ]
       }, {
         "name" : "Checking jokes by id (Negative test).",
-        "uid" : "363bb1aba18ecbcf",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "52f286bb2ccbbc",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527760848,
-          "stop" : 1527527761041,
-          "duration" : 193
+          "start" : 1527934725257,
+          "stop" : 1527934725445,
+          "duration" : 188
         },
         "flaky" : false,
         "parameters" : [ "1.5" ]
-      }, {
-        "name" : "Checking endpoint random jokes.",
-        "uid" : "54bd1aa690cdb340",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527765017,
-          "stop" : 1527527765223,
-          "duration" : 206
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Checking function limitTo (Negative test).",
-        "uid" : "56d5c1b4d5157e1",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527750209,
-          "stop" : 1527527750402,
-          "duration" : 193
-        },
-        "flaky" : false,
-        "parameters" : [ "qwerty", "123" ]
-      }, {
-        "name" : "Checking jokes by id (Negative test).",
-        "uid" : "f422e74119af7312",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527760533,
-          "stop" : 1527527760845,
-          "duration" : 312
-        },
-        "flaky" : false,
-        "parameters" : [ "-1" ]
-      }, {
-        "name" : "Checking the amount of jokes.",
-        "uid" : "fd9789b9cad55b11",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527758700,
-          "stop" : 1527527758958,
-          "duration" : 258
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Checking jokes by id (Positive test).",
-        "uid" : "f178fc2c5b2f8fd4",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527761457,
-          "stop" : 1527527761655,
-          "duration" : 198
-        },
-        "flaky" : false,
-        "parameters" : [ "603" ]
-      }, {
-        "name" : "Checking function limitTo (Positive test).",
-        "uid" : "8c48632d0675e757",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527753021,
-          "stop" : 1527527756221,
-          "duration" : 3200
-        },
-        "flaky" : false,
-        "parameters" : [ "nerdy", "" ]
-      }, {
-        "name" : "Checking function exclude (Negative test).",
-        "uid" : "7f9a2d3b90e3e130",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527724598,
-          "stop" : 1527527725035,
-          "duration" : 437
-        },
-        "flaky" : false,
-        "parameters" : [ "", "" ]
-      }, {
-        "name" : "Checking function limitTo (Positive test).",
-        "uid" : "c4e69e72268bb578",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527736082,
-          "stop" : 1527527743374,
-          "duration" : 7292
-        },
-        "flaky" : false,
-        "parameters" : [ "explicit", "nerdy" ]
-      }, {
-        "name" : "Check the count of random jokes (Negative test).",
-        "uid" : "a9f283a345d92d90",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527762452,
-          "stop" : 1527527762645,
-          "duration" : 193
-        },
-        "flaky" : false,
-        "parameters" : [ "-1" ]
-      }, {
-        "name" : "Checking function exclude (Negative test).",
-        "uid" : "fd166b49b37420bc",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527724165,
-          "stop" : 1527527724594,
-          "duration" : 429
-        },
-        "flaky" : false,
-        "parameters" : [ "qwerty", "123" ]
       }, {
         "name" : "Checking for incorrect endpoint categories.",
-        "uid" : "8d4e733c3fa5d128",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "37482b4530e14f71",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527722943,
-          "stop" : 1527527723245,
-          "duration" : 302
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Checking jokes by id (Negative test).",
-        "uid" : "ccafb9313bfc5f3a",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527760002,
-          "stop" : 1527527760531,
-          "duration" : 529
-        },
-        "flaky" : false,
-        "parameters" : [ "0" ]
-      }, {
-        "name" : "Check the count of random jokes (Positive test).",
-        "uid" : "b57b1a25305ba807",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527763572,
-          "stop" : 1527527764390,
-          "duration" : 818
-        },
-        "flaky" : false,
-        "parameters" : [ "558" ]
-      }, {
-        "name" : "Checking for incorrect endpoint after jokes.",
-        "uid" : "be9a859a18538084",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527759379,
-          "stop" : 1527527759830,
-          "duration" : 451
+          "start" : 1527934683762,
+          "stop" : 1527934684021,
+          "duration" : 259
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Checking function limitTo (Positive test).",
-        "uid" : "952cb9e4cac7dbe4",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "d885d665675b8461",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "passed",
         "time" : {
-          "start" : 1527527751445,
-          "stop" : 1527527753018,
-          "duration" : 1573
-        },
-        "flaky" : false,
-        "parameters" : [ "explicit", "nerdy" ]
-      }, {
-        "name" : "Checking the number of displayed jokes.",
-        "uid" : "3070242b78e2b9e5",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527757997,
-          "stop" : 1527527758697,
-          "duration" : 700
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check the count of random jokes (Negative test).",
-        "uid" : "5ea7965826fab54",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527762649,
-          "stop" : 1527527762815,
-          "duration" : 166
-        },
-        "flaky" : false,
-        "parameters" : [ "1.5" ]
-      }, {
-        "name" : "Check the count of random jokes (Negative test).",
-        "uid" : "5e1e461d0aea72e",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
-        "time" : {
-          "start" : 1527527762147,
-          "stop" : 1527527762448,
-          "duration" : 301
-        },
-        "flaky" : false,
-        "parameters" : [ "0" ]
-      }, {
-        "name" : "Checking function limitTo (Positive test).",
-        "uid" : "3b6dddf6262b415b",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "passed",
-        "time" : {
-          "start" : 1527527725370,
-          "stop" : 1527527736077,
-          "duration" : 10707
+          "start" : 1527934687889,
+          "stop" : 1527934699065,
+          "duration" : 11176
         },
         "flaky" : false,
         "parameters" : [ "explicit", "" ]
       }, {
         "name" : "Checking for incorrect endpoint jokes.",
-        "uid" : "a8fa252eca6657bf",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "fba3d2ac428ef86",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527759833,
-          "stop" : 1527527759995,
-          "duration" : 162
+          "start" : 1527934723507,
+          "stop" : 1527934723682,
+          "duration" : 175
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
+        "name" : "Checking function exclude (Negative test).",
+        "uid" : "3c4db7ee2b8cff6a",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934686058,
+          "stop" : 1527934686490,
+          "duration" : 432
+        },
+        "flaky" : false,
+        "parameters" : [ "", "" ]
+      }, {
+        "name" : "Check the count of random jokes (Negative test).",
+        "uid" : "ee3db2a1c929765b",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934729030,
+          "stop" : 1527934729279,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "parameters" : [ "qwery" ]
+      }, {
         "name" : "Check the count of random jokes (Positive test).",
-        "uid" : "8602be3546905821",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "993f00d4d55ed35e",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "passed",
         "time" : {
-          "start" : 1527527763198,
-          "stop" : 1527527763566,
-          "duration" : 368
+          "start" : 1527934729840,
+          "stop" : 1527934731300,
+          "duration" : 1460
+        },
+        "flaky" : false,
+        "parameters" : [ "300" ]
+      }, {
+        "name" : "Check the count of random jokes (Positive test).",
+        "uid" : "b735027865cf33b5",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934729283,
+          "stop" : 1527934729482,
+          "duration" : 199
         },
         "flaky" : false,
         "parameters" : [ "1" ]
       }, {
-        "name" : "Checking jokes by id (Positive test).",
-        "uid" : "7b1ffc02ca8d850c",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "name" : "Checking the amount of jokes.",
+        "uid" : "17a3de0c488a449c",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "passed",
         "time" : {
-          "start" : 1527527761267,
-          "stop" : 1527527761454,
-          "duration" : 187
+          "start" : 1527934721788,
+          "stop" : 1527934722294,
+          "duration" : 506
         },
         "flaky" : false,
-        "parameters" : [ "385" ]
+        "parameters" : [ ]
       }, {
         "name" : "Checking function limitTo (Negative test).",
-        "uid" : "839bdb41a7b8339c",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
+        "uid" : "f81e73a9749dccda",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
         "status" : "failed",
         "time" : {
-          "start" : 1527527750907,
-          "stop" : 1527527751109,
-          "duration" : 202
+          "start" : 1527934715628,
+          "stop" : 1527934715811,
+          "duration" : 183
         },
         "flaky" : false,
-        "parameters" : [ "explicit", "qwerty" ]
+        "parameters" : [ "", "" ]
       }, {
-        "name" : "Checking function limitTo (Negative test).",
-        "uid" : "b762bc9afd38bc13",
-        "parentUid" : "2a9d45048d92c361effa943d097bf9ed",
-        "status" : "failed",
+        "name" : "Checking the change of firstname and lastname in joke.",
+        "uid" : "a28d48f92f445901",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
         "time" : {
-          "start" : 1527527749980,
-          "stop" : 1527527750206,
-          "duration" : 226
+          "start" : 1527934726840,
+          "stop" : 1527934727421,
+          "duration" : 581
         },
         "flaky" : false,
-        "parameters" : [ "qwerty", "" ]
+        "parameters" : [ ]
+      }, {
+        "name" : "Checking jokes by id (Positive test).",
+        "uid" : "498d2d4eecf916cb",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934726018,
+          "stop" : 1527934726820,
+          "duration" : 802
+        },
+        "flaky" : false,
+        "parameters" : [ "603" ]
+      }, {
+        "name" : "Check the count of random jokes (Negative test).",
+        "uid" : "5a769b814fdcb926",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934727639,
+          "stop" : 1527934728041,
+          "duration" : 402
+        },
+        "flaky" : false,
+        "parameters" : [ "-1" ]
+      }, {
+        "name" : "Checking for incorrect endpoint after jokes.",
+        "uid" : "845c35c977887d53",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934722323,
+          "stop" : 1527934723503,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check the categories of jokes.",
+        "uid" : "2d0cb20918754a51",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934678678,
+          "stop" : 1527934683594,
+          "duration" : 4916
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checking function exclude (Negative test).",
+        "uid" : "f792f05e347d5c38",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934685361,
+          "stop" : 1527934686054,
+          "duration" : 693
+        },
+        "flaky" : false,
+        "parameters" : [ "qwerty", "123" ]
+      }, {
+        "name" : "Checking the number of displayed jokes.",
+        "uid" : "b580ff7b0fcfccc6",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934721418,
+          "stop" : 1527934721786,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checking jokes by id (Negative test).",
+        "uid" : "da6627888ea1ce4e",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934723685,
+          "stop" : 1527934723919,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "parameters" : [ "0" ]
+      }, {
+        "name" : "Checking jokes by id (Positive test).",
+        "uid" : "157cac5bda2a1b63",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934725451,
+          "stop" : 1527934725655,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "Checking jokes by id (Negative test).",
+        "uid" : "e42e88e890add741",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "failed",
+        "time" : {
+          "start" : 1527934723921,
+          "stop" : 1527934725254,
+          "duration" : 1333
+        },
+        "flaky" : false,
+        "parameters" : [ "-1" ]
+      }, {
+        "name" : "Checking function limitTo (Positive test).",
+        "uid" : "c39ade167a298467",
+        "parentUid" : "b0264f36d283b2fdf3d40bd92036b091",
+        "status" : "passed",
+        "time" : {
+          "start" : 1527934717304,
+          "stop" : 1527934718877,
+          "duration" : 1573
+        },
+        "flaky" : false,
+        "parameters" : [ "explicit", "nerdy" ]
       } ],
-      "uid" : "2a9d45048d92c361effa943d097bf9ed"
+      "uid" : "b0264f36d283b2fdf3d40bd92036b091"
     } ],
     "uid" : "62b3da81696541e553738be0af396e7d"
   } ]

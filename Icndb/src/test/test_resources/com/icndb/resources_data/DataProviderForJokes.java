@@ -12,8 +12,7 @@ import java.util.List;
 import java.util.Properties;
 
 import org.testng.annotations.DataProvider;
-
-import io.qameta.allure.Allure;
+import static com.icndb.resources_data.RestUtilities.*;
 
 public class DataProviderForJokes {
 
@@ -31,7 +30,7 @@ public class DataProviderForJokes {
 		try {
 			prop.load(fileProper);
 		} catch (IOException e) {
-			Allure.addAttachment("Exception: IOException", e.getMessage());
+			addAttachmentToReport("Exception: IOException", e.getMessage());
 		}
 
 		String strCategor = prop.getProperty(key);
@@ -45,7 +44,7 @@ public class DataProviderForJokes {
 		try {
 			listCategor = getListProperty(new FileInputStream(pathToCategory), keyCategories);
 		} catch (FileNotFoundException e) {
-			Allure.addAttachment("Exception: FileNotFoundException", e.getMessage());
+			addAttachmentToReport("Exception: FileNotFoundException", e.getMessage());
 		}
 		return listCategor;
 	}

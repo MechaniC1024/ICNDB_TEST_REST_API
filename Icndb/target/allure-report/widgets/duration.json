@@ -1,361 +1,361 @@
 [ {
-  "uid" : "3c9ff3410a5961d0",
-  "name" : "Checking jokes by id (Positive test).",
-  "time" : {
-    "start" : 1527527761044,
-    "stop" : 1527527761262,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37f524a91196c418",
-  "name" : "Check the categories of jokes.",
-  "time" : {
-    "start" : 1527527716167,
-    "stop" : 1527527722619,
-    "duration" : 6452
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8725d9edace09616",
-  "name" : "Checking function limitTo (Positive test).",
-  "time" : {
-    "start" : 1527527751112,
-    "stop" : 1527527751442,
-    "duration" : 330
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa5b18c8a63c7e28",
-  "name" : "Check the count of random jokes (Positive test).",
-  "time" : {
-    "start" : 1527527764391,
-    "stop" : 1527527764689,
-    "duration" : 298
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "82f179afcf5d86c0",
-  "name" : "Checking function exclude (Negative test).",
-  "time" : {
-    "start" : 1527527723306,
-    "stop" : 1527527724161,
-    "duration" : 855
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8ff54873c5d5928",
-  "name" : "Checking the change of firstname and lastname in joke.",
-  "time" : {
-    "start" : 1527527761709,
-    "stop" : 1527527762132,
-    "duration" : 423
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6eeed2bc3524b1a",
-  "name" : "Check the count of random jokes (Positive test).",
-  "time" : {
-    "start" : 1527527764691,
-    "stop" : 1527527765014,
-    "duration" : 323
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "845994b212e7d15",
-  "name" : "Checking function limitTo (Negative test).",
-  "time" : {
-    "start" : 1527527750639,
-    "stop" : 1527527750905,
-    "duration" : 266
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d730f129b62fea7",
+  "uid" : "1050b68c1f54567c",
   "name" : "Check the count of random jokes (Negative test).",
   "time" : {
-    "start" : 1527527762817,
-    "stop" : 1527527763011,
-    "duration" : 194
+    "start" : 1527934727424,
+    "stop" : 1527934727628,
+    "duration" : 204
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "d547a2f04b84cca0",
+  "uid" : "8a3fd962f32b016a",
+  "name" : "Checking function exclude (Negative test).",
+  "time" : {
+    "start" : 1527934684184,
+    "stop" : 1527934685356,
+    "duration" : 1172
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "736cdf7c8b5501f1",
+  "name" : "Checking function limitTo (Negative test).",
+  "time" : {
+    "start" : 1527934715434,
+    "stop" : 1527934715625,
+    "duration" : 191
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1be7574210c223e7",
+  "name" : "Check the count of random jokes (Negative test).",
+  "time" : {
+    "start" : 1527934728044,
+    "stop" : 1527934729028,
+    "duration" : 984
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47ff2dd23b0cff51",
   "name" : "Checking function limitTo (Positive test).",
   "time" : {
-    "start" : 1527527743377,
-    "stop" : 1527527749977,
-    "duration" : 6600
+    "start" : 1527934718879,
+    "stop" : 1527934721267,
+    "duration" : 2388
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "340625582d194546",
-  "name" : "Checking function exclude (Negative test).",
+  "uid" : "3dc307e6e45a085d",
+  "name" : "Checking function limitTo (Negative test).",
   "time" : {
-    "start" : 1527527725039,
-    "stop" : 1527527725367,
-    "duration" : 328
+    "start" : 1527934714811,
+    "stop" : 1527934715430,
+    "duration" : 619
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "363bb1aba18ecbcf",
-  "name" : "Checking jokes by id (Negative test).",
+  "uid" : "3504f4b4c45a24d1",
+  "name" : "Check the count of random jokes (Positive test).",
   "time" : {
-    "start" : 1527527760848,
-    "stop" : 1527527761041,
-    "duration" : 193
+    "start" : 1527934731302,
+    "stop" : 1527934731732,
+    "duration" : 430
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "54bd1aa690cdb340",
+  "uid" : "605e50c9416e5fbb",
+  "name" : "Checking function limitTo (Positive test).",
+  "time" : {
+    "start" : 1527934699069,
+    "stop" : 1527934706047,
+    "duration" : 6978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc923b37f61805be",
+  "name" : "Checking function limitTo (Negative test).",
+  "time" : {
+    "start" : 1527934715815,
+    "stop" : 1527934716335,
+    "duration" : 520
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86de200567be504c",
+  "name" : "Checking jokes by id (Positive test).",
+  "time" : {
+    "start" : 1527934725658,
+    "stop" : 1527934726015,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "472d9a1a47f4210",
   "name" : "Checking endpoint random jokes.",
   "time" : {
-    "start" : 1527527765017,
-    "stop" : 1527527765223,
-    "duration" : 206
+    "start" : 1527934731735,
+    "stop" : 1527934732967,
+    "duration" : 1232
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "56d5c1b4d5157e1",
-  "name" : "Checking function limitTo (Negative test).",
+  "uid" : "88dbc8b4052547a2",
+  "name" : "Checking function limitTo (Positive test).",
   "time" : {
-    "start" : 1527527750209,
-    "stop" : 1527527750402,
-    "duration" : 193
+    "start" : 1527934716338,
+    "stop" : 1527934717301,
+    "duration" : 963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ebe27edb8ad14cd",
+  "name" : "Checking function limitTo (Positive test).",
+  "time" : {
+    "start" : 1527934706053,
+    "stop" : 1527934714807,
+    "duration" : 8754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94129b92d881606",
+  "name" : "Check the count of random jokes (Positive test).",
+  "time" : {
+    "start" : 1527934729485,
+    "stop" : 1527934729838,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8527976ca94996e8",
+  "name" : "Checking function exclude (Negative test).",
+  "time" : {
+    "start" : 1527934686494,
+    "stop" : 1527934687885,
+    "duration" : 1391
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f422e74119af7312",
+  "uid" : "52f286bb2ccbbc",
   "name" : "Checking jokes by id (Negative test).",
   "time" : {
-    "start" : 1527527760533,
-    "stop" : 1527527760845,
-    "duration" : 312
+    "start" : 1527934725257,
+    "stop" : 1527934725445,
+    "duration" : 188
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "fd9789b9cad55b11",
-  "name" : "Checking the amount of jokes.",
-  "time" : {
-    "start" : 1527527758700,
-    "stop" : 1527527758958,
-    "duration" : 258
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f178fc2c5b2f8fd4",
-  "name" : "Checking jokes by id (Positive test).",
-  "time" : {
-    "start" : 1527527761457,
-    "stop" : 1527527761655,
-    "duration" : 198
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8c48632d0675e757",
-  "name" : "Checking function limitTo (Positive test).",
-  "time" : {
-    "start" : 1527527753021,
-    "stop" : 1527527756221,
-    "duration" : 3200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f9a2d3b90e3e130",
-  "name" : "Checking function exclude (Negative test).",
-  "time" : {
-    "start" : 1527527724598,
-    "stop" : 1527527725035,
-    "duration" : 437
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4e69e72268bb578",
-  "name" : "Checking function limitTo (Positive test).",
-  "time" : {
-    "start" : 1527527736082,
-    "stop" : 1527527743374,
-    "duration" : 7292
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9f283a345d92d90",
-  "name" : "Check the count of random jokes (Negative test).",
-  "time" : {
-    "start" : 1527527762452,
-    "stop" : 1527527762645,
-    "duration" : 193
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd166b49b37420bc",
-  "name" : "Checking function exclude (Negative test).",
-  "time" : {
-    "start" : 1527527724165,
-    "stop" : 1527527724594,
-    "duration" : 429
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d4e733c3fa5d128",
+  "uid" : "37482b4530e14f71",
   "name" : "Checking for incorrect endpoint categories.",
   "time" : {
-    "start" : 1527527722943,
-    "stop" : 1527527723245,
-    "duration" : 302
+    "start" : 1527934683762,
+    "stop" : 1527934684021,
+    "duration" : 259
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "ccafb9313bfc5f3a",
-  "name" : "Checking jokes by id (Negative test).",
-  "time" : {
-    "start" : 1527527760002,
-    "stop" : 1527527760531,
-    "duration" : 529
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b57b1a25305ba807",
-  "name" : "Check the count of random jokes (Positive test).",
-  "time" : {
-    "start" : 1527527763572,
-    "stop" : 1527527764390,
-    "duration" : 818
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be9a859a18538084",
-  "name" : "Checking for incorrect endpoint after jokes.",
-  "time" : {
-    "start" : 1527527759379,
-    "stop" : 1527527759830,
-    "duration" : 451
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "952cb9e4cac7dbe4",
+  "uid" : "d885d665675b8461",
   "name" : "Checking function limitTo (Positive test).",
   "time" : {
-    "start" : 1527527751445,
-    "stop" : 1527527753018,
-    "duration" : 1573
+    "start" : 1527934687889,
+    "stop" : 1527934699065,
+    "duration" : 11176
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3070242b78e2b9e5",
-  "name" : "Checking the number of displayed jokes.",
-  "time" : {
-    "start" : 1527527757997,
-    "stop" : 1527527758697,
-    "duration" : 700
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ea7965826fab54",
-  "name" : "Check the count of random jokes (Negative test).",
-  "time" : {
-    "start" : 1527527762649,
-    "stop" : 1527527762815,
-    "duration" : 166
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e1e461d0aea72e",
-  "name" : "Check the count of random jokes (Negative test).",
-  "time" : {
-    "start" : 1527527762147,
-    "stop" : 1527527762448,
-    "duration" : 301
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b6dddf6262b415b",
-  "name" : "Checking function limitTo (Positive test).",
-  "time" : {
-    "start" : 1527527725370,
-    "stop" : 1527527736077,
-    "duration" : 10707
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8fa252eca6657bf",
+  "uid" : "fba3d2ac428ef86",
   "name" : "Checking for incorrect endpoint jokes.",
   "time" : {
-    "start" : 1527527759833,
-    "stop" : 1527527759995,
-    "duration" : 162
+    "start" : 1527934723507,
+    "stop" : 1527934723682,
+    "duration" : 175
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8602be3546905821",
+  "uid" : "3c4db7ee2b8cff6a",
+  "name" : "Checking function exclude (Negative test).",
+  "time" : {
+    "start" : 1527934686058,
+    "stop" : 1527934686490,
+    "duration" : 432
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee3db2a1c929765b",
+  "name" : "Check the count of random jokes (Negative test).",
+  "time" : {
+    "start" : 1527934729030,
+    "stop" : 1527934729279,
+    "duration" : 249
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "993f00d4d55ed35e",
   "name" : "Check the count of random jokes (Positive test).",
   "time" : {
-    "start" : 1527527763198,
-    "stop" : 1527527763566,
+    "start" : 1527934729840,
+    "stop" : 1527934731300,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b735027865cf33b5",
+  "name" : "Check the count of random jokes (Positive test).",
+  "time" : {
+    "start" : 1527934729283,
+    "stop" : 1527934729482,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17a3de0c488a449c",
+  "name" : "Checking the amount of jokes.",
+  "time" : {
+    "start" : 1527934721788,
+    "stop" : 1527934722294,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f81e73a9749dccda",
+  "name" : "Checking function limitTo (Negative test).",
+  "time" : {
+    "start" : 1527934715628,
+    "stop" : 1527934715811,
+    "duration" : 183
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a28d48f92f445901",
+  "name" : "Checking the change of firstname and lastname in joke.",
+  "time" : {
+    "start" : 1527934726840,
+    "stop" : 1527934727421,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "498d2d4eecf916cb",
+  "name" : "Checking jokes by id (Positive test).",
+  "time" : {
+    "start" : 1527934726018,
+    "stop" : 1527934726820,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a769b814fdcb926",
+  "name" : "Check the count of random jokes (Negative test).",
+  "time" : {
+    "start" : 1527934727639,
+    "stop" : 1527934728041,
+    "duration" : 402
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "845c35c977887d53",
+  "name" : "Checking for incorrect endpoint after jokes.",
+  "time" : {
+    "start" : 1527934722323,
+    "stop" : 1527934723503,
+    "duration" : 1180
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d0cb20918754a51",
+  "name" : "Check the categories of jokes.",
+  "time" : {
+    "start" : 1527934678678,
+    "stop" : 1527934683594,
+    "duration" : 4916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f792f05e347d5c38",
+  "name" : "Checking function exclude (Negative test).",
+  "time" : {
+    "start" : 1527934685361,
+    "stop" : 1527934686054,
+    "duration" : 693
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b580ff7b0fcfccc6",
+  "name" : "Checking the number of displayed jokes.",
+  "time" : {
+    "start" : 1527934721418,
+    "stop" : 1527934721786,
     "duration" : 368
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7b1ffc02ca8d850c",
-  "name" : "Checking jokes by id (Positive test).",
+  "uid" : "da6627888ea1ce4e",
+  "name" : "Checking jokes by id (Negative test).",
   "time" : {
-    "start" : 1527527761267,
-    "stop" : 1527527761454,
-    "duration" : 187
+    "start" : 1527934723685,
+    "stop" : 1527934723919,
+    "duration" : 234
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "839bdb41a7b8339c",
-  "name" : "Checking function limitTo (Negative test).",
+  "uid" : "157cac5bda2a1b63",
+  "name" : "Checking jokes by id (Positive test).",
   "time" : {
-    "start" : 1527527750907,
-    "stop" : 1527527751109,
-    "duration" : 202
+    "start" : 1527934725451,
+    "stop" : 1527934725655,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e42e88e890add741",
+  "name" : "Checking jokes by id (Negative test).",
+  "time" : {
+    "start" : 1527934723921,
+    "stop" : 1527934725254,
+    "duration" : 1333
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "b762bc9afd38bc13",
-  "name" : "Checking function limitTo (Negative test).",
+  "uid" : "c39ade167a298467",
+  "name" : "Checking function limitTo (Positive test).",
   "time" : {
-    "start" : 1527527749980,
-    "stop" : 1527527750206,
-    "duration" : 226
+    "start" : 1527934717304,
+    "stop" : 1527934718877,
+    "duration" : 1573
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 } ]
